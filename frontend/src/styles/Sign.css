@@ -1,0 +1,65 @@
+.sign-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+    background:  linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../images/background.jpg");
+    background-size: cover;
+    background-clip: content-box;
+    color: white;
+}
+
+.sign-up-form, .sign-in-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sign-up-button, .sign-up-in-button, .sign-in-button{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3f51b5;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-up-button:hover{
+    background-color: #303f9f;
+}
+
+.sign-up-form input, .sign-in-form input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f5f5f5;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.sign-up-in-button, .sign-in-button{
+    background-color: #3fb549;
+}
+
+.sign-up-in-button:hover, .sign-in-button:hover{
+    background-color: #2e8c39;
+}
+
+.error-message{
+    color: red;
+    font-size: 20px;
+}
+
+.company-name{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
